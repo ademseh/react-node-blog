@@ -7,7 +7,9 @@ export default function HomeView() {
       <Grid item xs={12} md={9} >
         <MainCarousel/>
       </Grid>
-      <Grid item xs={12} md={3} > </Grid>
+      <Grid item xs={12} md={3} >
+        {/* author info card */}
+      </Grid>
     </Grid>
   )
 }
