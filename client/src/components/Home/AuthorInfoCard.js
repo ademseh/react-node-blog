@@ -30,10 +30,10 @@ export default function BasicCard() {
           Selami Sahin
         </Typography>
       <IconButton onClick={()=>{
-        window.location.href='http://www.facebook.com'
+        window.open("http://www.facebook.com", "_blank")
       }}><FbIcon/></IconButton> 
       <IconButton onClick={()=>{
-        window.location.href='http://www.instagram.com'
+        window.open("http://instagram.com", "_blank")
       }}><Instagram/></IconButton> 
       <IconButton onClick={()=>{
        window.open("http://www.twitter.com", "_blank")
