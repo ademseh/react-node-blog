@@ -11,7 +11,7 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
 import { Button, CardActions } from "@mui/material";
 
-export default function BlogCard() {
+export default function BlogCard(props) {
   const theme = useTheme();
 
   return (
@@ -25,14 +25,14 @@ export default function BlogCard() {
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
           <Typography component="div" variant="h5">
-           Javascript ile blog yapımı #1
+           {props.blog.title}
           </Typography>
           <Typography
             variant="subtitle1"
             color="text.secondary"
             component="div"
           >
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...
+           {props.blog.body}
           </Typography>
         </CardContent>
         <CardActions>
