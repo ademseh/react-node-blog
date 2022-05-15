@@ -1,0 +1,7 @@
+//https://demo.goodlayers.com/akea/homepage3/#
+1. Sayfalarımızı belirleyip sayfa componentlerini oluştuurp
+   Router yapısını kuralım
+2. Sayfa içindeki componentleri oluşturalım.
+3. Redux kurulup ,
+    gerekli olan global state planlanıp ona uygun şekilde
+    bir slice / reducer oluşturulmalı.
