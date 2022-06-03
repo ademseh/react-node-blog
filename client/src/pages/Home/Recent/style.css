@@ -1,0 +1,30 @@
+.recent{
+    margin-top: 100px;
+}
+.recent-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.recent-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #383838;
+    font-family: "Poppins", sans-serif;
+}
+.recent-more-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: #f03d1f;
+    font-family: "Montserrat"
+}
+.articles-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
